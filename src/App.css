@@ -1,14 +1,70 @@
-#tvSold{
+/*Global styles*/
+
+.main-container {
+    max-width: 1200px;
     font-family: 'Zen+Kaku Gothic New', cursive;
+    margin: auto;
+    padding: 30px;
+}
+
+li {
+    list-style-type: none;
+}
+
+section{
+    margin: 20px;
+    padding: 20px;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+h2{
+    font-size: 1.5rem;
+}
+
+h3{
+    font-size: 1.3rem;
+}
+
+#tvSold{
     color: Green;
 }
 
 #stockInitial{
-    font-family: 'Zen+Kaku Gothic New', cursive;
     color: Blue;
 }
 
 #toSellTvs{
-    font-family: 'Zen+Kaku Gothic New', cursive;
     color: Red;
+}
+
+/*TV Highlight info area*/
+#tvHightlightInfo{
+
+}
+
+#tvHighlight{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+#tvHighlight img{
+    max-width: 300px;
+}
+
+
+/*TV Highlight options area*/
+
+#icons{
+    width: 12px;
+}
+
+#tvHightlightOptions{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
 }
